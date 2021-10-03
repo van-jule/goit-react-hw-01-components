@@ -1,0 +1,40 @@
+.table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  margin-top: 50px;
+  font-size: 14px;
+  text-align: center;
+  background-color: rgba(255 255 255 / 97%);
+  box-shadow: 3px 1px 9px 0px rgb(0 0 0 / 30%), 0px 1px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px -1px rgb(0 0 0 / 12%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 30px;
+}
+
+.table:hover,
+.table:focus {
+  transform: scale(1.008);
+}
+
+.head {
+  background-color: rgba(51, 165, 159, 0.733);
+  height: 40px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.row {
+  height: 30px;
+}
+
+.row:hover,
+.row:focus {
+  color: rgb(26, 99, 99);
+}
+.row:nth-child(even) {
+  background-color: rgba(100, 228, 222, 0.2);
+}
+.row:nth-child(odd) {
+  background-color: rgba(194, 228, 100, 0.2);
+}

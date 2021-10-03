@@ -1,0 +1,43 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid rgba(66, 66, 66, 0.082);
+  box-shadow: 3px 1px 9px 0px rgb(0 0 0 / 30%), 0px 1px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px -1px rgb(0 0 0 / 12%);
+}
+
+.title {
+  padding: 20px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.671);
+  text-transform: uppercase;
+  background-color: rgba(255 255 255 / 97%);
+}
+
+.statList {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: black;
+}
+
+.label {
+  font-size: 12px;
+}
+
+.percentage {
+  font-size: 16px;
+  font-weight: 700;
+}
